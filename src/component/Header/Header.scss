@@ -1,0 +1,69 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .brand-logo {
+      width: 100px; /* Set width for the logo */
+      height: 100px; /* Set height for the logo */
+      background-image: url('../../assets/logo.png'); /* Path to your logo */
+      background-size: contain; /* Ensure the image scales properly */
+      background-repeat: no-repeat; /* Prevent the image from repeating */
+      margin-right: 10px; /* Add some space between the logo and the brand name */
+    }
+  
+    .brand-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333; /* Adjust the color as needed */
+    }
+  
+    &:hover {
+      text-decoration: none;
+      .brand-name {
+        color: #007bff; /* Optional hover effect */
+      }
+    }
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+  
+    .btn-login,
+    .btn-sign-up {
+      margin-left: 10px;
+      padding: 5px 15px;
+      border-radius: 4px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      background-color: #007bff;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    .btn-sign-up {
+      background-color: #28a745;
+  
+      &:hover {
+        background-color: #218838;
+      }
+    }
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+    font-size: 1rem;
+    color: #333;
+  
+    &:hover {
+      color: #007bff;
+      text-decoration: none;
+    }
+  }
+  
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+  
