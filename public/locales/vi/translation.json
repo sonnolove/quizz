@@ -1,12 +1,12 @@
 {
   "homepage": {
-    "title1": "Có rất nhiều cái để hỏi ...",
-    "title2": "Không biết thì hỏi google",
+    "title1": "Chào mừng đến với PioQuizzy",
+    "title2": "Khám phá cách vui nhộn và hấp dẫn để kiểm tra kiến thức của bạn với các bài kiểm tra. Thử thách bản thân và người khác với nhiều chủ đề khác nhau!",
     "title3": {
-      "login": "Get's started. It's free"
+      "login": "Bắt đầu hành trình kiểm tra của bạn. Hoàn toàn miễn phí!"
     },
     "title4": {
-      "login": "Làm bài quiz ngay bây giờ"
+      "login": "Bắt đầu kiểm tra ngay"
     }
   }
 }

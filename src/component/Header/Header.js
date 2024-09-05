@@ -59,11 +59,11 @@ const Header = () => {
                 Home
               </NavLink>
               <NavLink to="/users" className="nav-link">
-                User
+                My Quizzes
               </NavLink>
               {account && account.role === "ADMIN" ? (
-                <NavLink to="/admin" className="nav-link">
-                  Admin
+                <NavLink target="_blank" to="/admin" className="nav-link">
+                  Dashboard
                 </NavLink>
               ) : (
                 <></>

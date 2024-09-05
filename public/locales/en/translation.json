@@ -1,12 +1,12 @@
 {
   "homepage": {
-    "title1": "There's a better way to ask",
-    "title2": "Get more data—like sign ups, feedback, and anything else—with forms designed to be refreshingly different",
+    "title1": "Welcome to PioQuizzy",
+    "title2": "Discover a fun and engaging way to test your knowledge with our quizzes. Challenge yourself and others with a variety of topics!",
     "title3": {
-      "login": "Get's started. It's free"
+      "login": "Start your quiz journey. It's free!"
     },
     "title4": {
-      "login": "Doing Quiz Now"
+      "login": "Begin Quiz Now"
     }
   }
 }

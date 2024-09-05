@@ -17,6 +17,7 @@ import { SiManageiq } from "react-icons/si";
 // import sidebarBg from "../../assets/bg2.jpg";
 import "./SideBar.scss";
 
+
 const SideBar = (props) => {
   const { collapsed, toggled, handleToggleSidebar } = props;
   const navigate = useNavigate();
@@ -28,25 +29,14 @@ const SideBar = (props) => {
         toggled={toggled}
         breakPoint="md"
         onToggle={handleToggleSidebar}>
-        <SidebarHeader>
-          <div
-            style={{
-              padding: "24px",
-              textTransform: "uppercase",
-              fontWeight: "bold",
-              fontSize: 14,
-              letterSpacing: "1px",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              whiteSpace: "nowrap",
-              cursor: "pointer",
-            }}>
-            <DiReact size={"3em"} color={"00bfff"} className="icon-sidebar" />
-            <span className="span-quizzy" onClick={() => navigate("/")}>
-              PioQuizzy
-            </span>
-          </div>
-        </SidebarHeader>
+       <SidebarHeader>
+  <div className="sidebar-header" onClick={() => navigate("/")}>
+    <div className="logo"></div>
+    <span className="span-quizzy">PioQuizzy</span>
+  </div>
+</SidebarHeader>
+
+
 
         <SidebarContent>
           <Menu iconShape="circle">
@@ -76,28 +66,7 @@ const SideBar = (props) => {
           </Menu>
         </SidebarContent>
 
-        <SidebarFooter style={{ textAlign: "center" }}>
-          <div
-            className="sidebar-btn-wrapper"
-            style={{
-              padding: "20px 24px",
-            }}>
-            <a
-              href="https://github.com/azouaoui-med/react-pro-sidebar"
-              target="_blank"
-              className="sidebar-btn"
-              rel="noopener noreferrer">
-              <span
-                style={{
-                  whiteSpace: "nowrap",
-                  textOverflow: "ellipsis",
-                  overflow: "hidden",
-                }}>
-                &#169; Bien
-              </span>
-            </a>
-          </div>
-        </SidebarFooter>
+     
       </ProSidebar>
     </>
   );

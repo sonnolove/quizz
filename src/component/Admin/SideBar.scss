@@ -1,3 +1,33 @@
+.sidebar-header {
+  padding: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: flex;
+  align-items: center; // Vertically center the logo and text
+}
+
+.logo {
+  width: 5em; // Adjust width as needed
+  height: 5em; // Set height to match width for a square logo
+  background-image: url('../../assets/logo_white.png'); // Path to your logo
+  background-size: contain; // Fit the background image within the div
+  background-repeat: no-repeat; // Prevent repeating the image
+  background-position: center; // Center the image in the div
+  margin-right: 1em; // Space between logo and brand name
+}
+
+.span-quizzy {
+  color: #ffffff; // Adjust text color as needed
+}
+
+
+
 .icon-sidebar {
   font-size: 15px;
   color: #00bfff;
